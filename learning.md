@@ -41,3 +41,43 @@ git reset --hard (id)
 git checkout -- text.txt
 ```
 ##### 使用git add . 之后， 可以通过版本回退撤销修改
+###克隆仓库
+```
+git clone 远程仓库项目地址（https://github.com/YYYha/learnGit.git）
+```
+
+###创建分支
+```
+git branch 分支名(dev)  
+
+$ git branch          // 查看分支名
+  dev
+* master     // * 表示所在的分支
+```
+###切换分支
+```
+$git cheackout 分支名(dev)
+
+$ git checkout dev
+Switched to branch 'dev'
+M       learning.md
+```
+###将分支与主分支合并
+```
+$git checkout master   // 先切换回主分支
+$git merge dev(要合并的分支)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
