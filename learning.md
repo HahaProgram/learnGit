@@ -22,5 +22,9 @@ b921ea3 (HEAD -> master) HEAD@{0}: commit: 小白测试
 git reset --hard HEAD^
 ###回退任意版本 
 git log
-git reset --hard id
+git reset --hard (id)
+###撤销修改
+####未使用 git add . 之前可以使用 git checkout -- 文件名 对文件进行撤销修改
+···git checkout -- text.txt
+####使用git add . 之后， 可以通过版本回退撤销修改
 
